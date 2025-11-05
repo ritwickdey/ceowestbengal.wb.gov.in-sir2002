@@ -53,7 +53,7 @@ def convert(pdf_path: str) -> str:
         f.write(text)
 
 
-def covert_to_txt():
+def convert_to_txt():
     """Convert all PDFs to text (skips already converted ones)."""
     ensure_output_folder()
 
@@ -94,4 +94,4 @@ def covert_to_txt():
 
 
 if __name__ == "__main__":
-    covert_to_txt()
+    convert_to_txt()
