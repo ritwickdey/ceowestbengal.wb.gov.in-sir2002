@@ -5,7 +5,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Event
 
 # === CONFIGURATION ===
-acid = 211
+acid = 116
 folder_name = "pdfs"     # folder name as variable
 max_workers = 2               # number of concurrent downloads
 timeout = 20                  # seconds per request
