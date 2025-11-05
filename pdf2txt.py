@@ -5,6 +5,8 @@ import pytesseract
 from multiprocessing import Pool, cpu_count
 from typing import List
 
+from tqdm import tqdm
+
 PDF_FOLDER = "pdfs"
 OUTPUT_FOLDER = "output_txt"
 
@@ -21,7 +23,9 @@ def pdf_to_txt_path(pdf_path: str) -> str:
 
 def ocr_page(page_image):
     """Runs OCR on a single PDF page (for multiprocessing)."""
-    return pytesseract.image_to_string(page_image, lang="ben", config="--psm 6")
+    return pytesseract.image_to_string(page_image,
+                                       lang="ben",
+                                       config="--psm 6")
 
 
 def extract_text_from_pdf(pdf_path: str) -> str:
@@ -43,7 +47,8 @@ def convert(pdf_path: str) -> str:
     text = extract_text_from_pdf(pdf_path)
     end_time = os.times()
     elapsed = end_time.elapsed - start_time.elapsed
-    print(f"✅ Converted: {os.path.basename(pdf_path)} in {elapsed:.2f} seconds")
+    print(
+        f"✅ Converted: {os.path.basename(pdf_path)} in {elapsed:.2f} seconds")
     with open(txt_path, "w+", encoding="utf-8") as f:
         f.write(text)
 
@@ -52,7 +57,10 @@ def covert_to_txt():
     """Convert all PDFs to text (skips already converted ones)."""
     ensure_output_folder()
 
-    pdf_files = [os.path.join(PDF_FOLDER, f) for f in os.listdir(PDF_FOLDER) if f.lower().endswith(".pdf")]
+    pdf_files = [
+        os.path.join(PDF_FOLDER, f) for f in os.listdir(PDF_FOLDER)
+        if f.lower().endswith(".pdf")
+    ]
 
     def sort_key(s):
         nums = re.findall(r'\d+', s)
@@ -65,14 +73,23 @@ def covert_to_txt():
     for pdf_path in pdf_files:
         txt_path = pdf_to_txt_path(pdf_path)
         if os.path.exists(txt_path) and os.path.getsize(txt_path) > 10:
-            print(f"✅ Skipping (already converted): {os.path.basename(pdf_path)}")
+            print(
+                f"✅ Skipping (already converted): {os.path.basename(pdf_path)}"
+            )
             continue
         else:
             pdf_list_to_convert.append(pdf_path)
 
-    print(f"Total PDFs to convert: {len(pdf_list_to_convert)}")
-    for index, pdf_path in enumerate(pdf_list_to_convert, 1):
-        print(f"\nProcessing file {index}/{len(pdf_list_to_convert)}")
+    # print(f"Total PDFs to convert: {len(pdf_list_to_convert)}")
+    # for index, pdf_path in enumerate(pdf_list_to_convert, 1):
+    #     print(f"\nProcessing file {index}/{len(pdf_list_to_convert)}")
+    #     convert(pdf_path)
+
+    for pdf_path in tqdm(
+            pdf_list_to_convert,
+            desc="Converting PDFs",
+            unit="file",
+    ):
         convert(pdf_path)
 
 
