@@ -4,8 +4,6 @@ from pdf2image import convert_from_path
 import pytesseract
 from multiprocessing import Pool, cpu_count
 from typing import List
-from tqdm import tqdm
-
 
 PDF_FOLDER = "pdfs"
 OUTPUT_FOLDER = "output_txt"
@@ -29,10 +27,10 @@ def ocr_page(page_image):
 def extract_text_from_pdf(pdf_path: str) -> str:
     """Convert PDF to text using Tesseract OCR (parallel per page)."""
     pages = convert_from_path(pdf_path, dpi=150)
-    num_workers = max(1, min(cpu_count()*2, len(pages)))
+    num_workers = max(1, min(cpu_count() * 2, len(pages)))
 
     with Pool(processes=num_workers) as pool:
-        results: List[str] = list(tqdm(pool.imap(ocr_page, pages), total=len(pages), desc=f"OCR {os.path.basename(pdf_path)}"))
+        results: List[str] = pool.map(ocr_page, pages)
 
     return "\n".join(results)
 
@@ -51,16 +49,18 @@ def convert(pdf_path: str) -> str:
 
 
 def covert_to_txt():
-    """Search for Bengali text in all converted files."""
+    """Convert all PDFs to text (skips already converted ones)."""
     ensure_output_folder()
 
     pdf_files = [os.path.join(PDF_FOLDER, f) for f in os.listdir(PDF_FOLDER) if f.lower().endswith(".pdf")]
+
     def sort_key(s):
         nums = re.findall(r'\d+', s)
         return tuple(map(int, nums))
+
     pdf_files = sorted(pdf_files, key=sort_key)
     print(f"Total PDFs found: {len(pdf_files)}")
-    
+
     pdf_list_to_convert = []
     for pdf_path in pdf_files:
         txt_path = pdf_to_txt_path(pdf_path)
@@ -69,14 +69,12 @@ def covert_to_txt():
             continue
         else:
             pdf_list_to_convert.append(pdf_path)
-    
+
     print(f"Total PDFs to convert: {len(pdf_list_to_convert)}")
-    index = 0
-    for pdf_path in pdf_list_to_convert:
-        index += 1
+    for index, pdf_path in enumerate(pdf_list_to_convert, 1):
         print(f"\nProcessing file {index}/{len(pdf_list_to_convert)}")
         convert(pdf_path)
 
+
 if __name__ == "__main__":
-    # Example: user provides a Bengali phrase to search
     covert_to_txt()
