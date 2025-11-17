@@ -2,7 +2,6 @@ import json
 from PyPDF2 import PdfReader
 from PyPDF2.generic import Destination
 
-
 def pdf_index_to_json(pdf_path: str, json_path: str):
     reader = PdfReader(pdf_path)
 
@@ -42,7 +41,7 @@ def pdf_index_to_json(pdf_path: str, json_path: str):
                     "title": element.title,
                     "page": page_num + 1 if page_num is not None else None,
                     "children": [],
-                    "content": ""  # filled later
+                    "content": []  # filled later
                 }
 
                 result.append(node)
@@ -90,7 +89,7 @@ def pdf_index_to_json(pdf_path: str, json_path: str):
         if start is not None:
             node["content"] = extract_text_range(start, end)
         else:
-            node["content"] = ""
+            node["content"] = []
 
     # ------------------------------------------
     # Step 4: Write final JSON
