@@ -1,0 +1,1010 @@
+[
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "ACCOUNTANCY-PG",
+    "total_count": 53,
+    "with_experience": 3,
+    "without_experience": 50
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "ACCOUNTANCY-PG",
+    "total_count": 44,
+    "with_experience": 6,
+    "without_experience": 38
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "ACCOUNTANCY-PG",
+    "total_count": 27,
+    "with_experience": 1,
+    "without_experience": 26
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "ACCOUNTANCY-PG",
+    "total_count": 11,
+    "with_experience": 0,
+    "without_experience": 11
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "AGRICULTURE-PG",
+    "total_count": 1,
+    "with_experience": 1,
+    "without_experience": 0
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "AGRICULTURE-PG",
+    "total_count": 1,
+    "with_experience": 0,
+    "without_experience": 1
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "AGRONOMY-PG",
+    "total_count": 21,
+    "with_experience": 4,
+    "without_experience": 17
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "AGRONOMY-PG",
+    "total_count": 11,
+    "with_experience": 5,
+    "without_experience": 6
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "AGRONOMY-PG",
+    "total_count": 3,
+    "with_experience": 1,
+    "without_experience": 2
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "AGRONOMY-PG",
+    "total_count": 3,
+    "with_experience": 0,
+    "without_experience": 3
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "ANTHROPOLOGY-PG",
+    "total_count": 13,
+    "with_experience": 5,
+    "without_experience": 8
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "ANTHROPOLOGY-PG",
+    "total_count": 3,
+    "with_experience": 1,
+    "without_experience": 2
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "ANTHROPOLOGY-PG",
+    "total_count": 1,
+    "with_experience": 1,
+    "without_experience": 0
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "ANTHROPOLOGY-PG",
+    "total_count": 4,
+    "with_experience": 1,
+    "without_experience": 3
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "ARABIC-PG",
+    "total_count": 33,
+    "with_experience": 14,
+    "without_experience": 19
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "ARABIC-PG",
+    "total_count": 9,
+    "with_experience": 1,
+    "without_experience": 8
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "ARABIC-PG",
+    "total_count": 1,
+    "with_experience": 1,
+    "without_experience": 0
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "ARABIC-PG",
+    "total_count": 2,
+    "with_experience": 0,
+    "without_experience": 2
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "BENGALI-PG",
+    "total_count": 77,
+    "with_experience": 77,
+    "without_experience": 0
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "BENGALI-PG",
+    "total_count": 41,
+    "with_experience": 41,
+    "without_experience": 0
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "BENGALI-PG",
+    "total_count": 264,
+    "with_experience": 253,
+    "without_experience": 11
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "BENGALI-PG",
+    "total_count": 220,
+    "with_experience": 204,
+    "without_experience": 16
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "BIOLOGICAL-SCIENCE-PG",
+    "total_count": 571,
+    "with_experience": 401,
+    "without_experience": 170
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "BIOLOGICAL-SCIENCE-PG",
+    "total_count": 200,
+    "with_experience": 189,
+    "without_experience": 11
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "BIOLOGICAL-SCIENCE-PG",
+    "total_count": 280,
+    "with_experience": 258,
+    "without_experience": 22
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "BIOLOGICAL-SCIENCE-PG",
+    "total_count": 509,
+    "with_experience": 286,
+    "without_experience": 223
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "CHEMISTRY-PG",
+    "total_count": 335,
+    "with_experience": 323,
+    "without_experience": 12
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "CHEMISTRY-PG",
+    "total_count": 354,
+    "with_experience": 165,
+    "without_experience": 189
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "CHEMISTRY-PG",
+    "total_count": 797,
+    "with_experience": 442,
+    "without_experience": 355
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "CHEMISTRY-PG",
+    "total_count": 189,
+    "with_experience": 156,
+    "without_experience": 33
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "COMMERCE-PG",
+    "total_count": 205,
+    "with_experience": 59,
+    "without_experience": 146
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "COMMERCE-PG",
+    "total_count": 133,
+    "with_experience": 27,
+    "without_experience": 106
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "COMMERCE-PG",
+    "total_count": 106,
+    "with_experience": 14,
+    "without_experience": 92
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "COMMERCE-PG",
+    "total_count": 57,
+    "with_experience": 10,
+    "without_experience": 47
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "COMPUTER-APPLICATION-PG",
+    "total_count": 50,
+    "with_experience": 39,
+    "without_experience": 11
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "COMPUTER-APPLICATION-PG",
+    "total_count": 62,
+    "with_experience": 25,
+    "without_experience": 37
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "COMPUTER-APPLICATION-PG",
+    "total_count": 149,
+    "with_experience": 72,
+    "without_experience": 77
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "COMPUTER-APPLICATION-PG",
+    "total_count": 78,
+    "with_experience": 22,
+    "without_experience": 56
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "COMPUTER-SCIENCE-PG",
+    "total_count": 46,
+    "with_experience": 44,
+    "without_experience": 2
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "COMPUTER-SCIENCE-PG",
+    "total_count": 142,
+    "with_experience": 64,
+    "without_experience": 78
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "COMPUTER-SCIENCE-PG",
+    "total_count": 36,
+    "with_experience": 24,
+    "without_experience": 12
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "COMPUTER-SCIENCE-PG",
+    "total_count": 63,
+    "with_experience": 15,
+    "without_experience": 48
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "ECONOMICS-PG",
+    "total_count": 84,
+    "with_experience": 25,
+    "without_experience": 59
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "ECONOMICS-PG",
+    "total_count": 155,
+    "with_experience": 25,
+    "without_experience": 130
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "ECONOMICS-PG",
+    "total_count": 111,
+    "with_experience": 21,
+    "without_experience": 90
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "ECONOMICS-PG",
+    "total_count": 110,
+    "with_experience": 28,
+    "without_experience": 82
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "EDUCATION-PG",
+    "total_count": 816,
+    "with_experience": 379,
+    "without_experience": 437
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "EDUCATION-PG",
+    "total_count": 112,
+    "with_experience": 81,
+    "without_experience": 31
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "EDUCATION-PG",
+    "total_count": 213,
+    "with_experience": 109,
+    "without_experience": 104
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "EDUCATION-PG",
+    "total_count": 614,
+    "with_experience": 164,
+    "without_experience": 450
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "ENGLISH-PG",
+    "total_count": 425,
+    "with_experience": 422,
+    "without_experience": 3
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "ENGLISH-PG",
+    "total_count": 340,
+    "with_experience": 329,
+    "without_experience": 11
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "ENGLISH-PG",
+    "total_count": 157,
+    "with_experience": 157,
+    "without_experience": 0
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "ENGLISH-PG",
+    "total_count": 73,
+    "with_experience": 73,
+    "without_experience": 0
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "ENVIRONMENTAL-STUDIES-PG",
+    "total_count": 37,
+    "with_experience": 26,
+    "without_experience": 11
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "ENVIRONMENTAL-STUDIES-PG",
+    "total_count": 7,
+    "with_experience": 7,
+    "without_experience": 0
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "ENVIRONMENTAL-STUDIES-PG",
+    "total_count": 18,
+    "with_experience": 8,
+    "without_experience": 10
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "ENVIRONMENTAL-STUDIES-PG",
+    "total_count": 7,
+    "with_experience": 7,
+    "without_experience": 0
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "GEOGRAPHY-PG",
+    "total_count": 409,
+    "with_experience": 352,
+    "without_experience": 57
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "GEOGRAPHY-PG",
+    "total_count": 61,
+    "with_experience": 61,
+    "without_experience": 0
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "GEOGRAPHY-PG",
+    "total_count": 78,
+    "with_experience": 75,
+    "without_experience": 3
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "GEOGRAPHY-PG",
+    "total_count": 217,
+    "with_experience": 147,
+    "without_experience": 70
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "HINDI-PG",
+    "total_count": 11,
+    "with_experience": 10,
+    "without_experience": 1
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "HINDI-PG",
+    "total_count": 29,
+    "with_experience": 20,
+    "without_experience": 9
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "HINDI-PG",
+    "total_count": 14,
+    "with_experience": 11,
+    "without_experience": 3
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "HINDI-PG",
+    "total_count": 4,
+    "with_experience": 4,
+    "without_experience": 0
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "HISTORY-PG",
+    "total_count": 87,
+    "with_experience": 86,
+    "without_experience": 1
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "HISTORY-PG",
+    "total_count": 91,
+    "with_experience": 91,
+    "without_experience": 0
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "HISTORY-PG",
+    "total_count": 490,
+    "with_experience": 463,
+    "without_experience": 27
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "HISTORY-PG",
+    "total_count": 308,
+    "with_experience": 209,
+    "without_experience": 99
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "HOME-MANAGEMENT-HOME-NURSING-PG",
+    "total_count": 50,
+    "with_experience": 18,
+    "without_experience": 32
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "HOME-MANAGEMENT-HOME-NURSING-PG",
+    "total_count": 28,
+    "with_experience": 17,
+    "without_experience": 11
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "HOME-MANAGEMENT-HOME-NURSING-PG",
+    "total_count": 2,
+    "with_experience": 0,
+    "without_experience": 2
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "HOME-SCIENCE-PG",
+    "total_count": 2,
+    "with_experience": 0,
+    "without_experience": 2
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "MATHEMATICS-PG",
+    "total_count": 128,
+    "with_experience": 104,
+    "without_experience": 24
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "MATHEMATICS-PG",
+    "total_count": 181,
+    "with_experience": 176,
+    "without_experience": 5
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "MATHEMATICS-PG",
+    "total_count": 607,
+    "with_experience": 429,
+    "without_experience": 178
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "MATHEMATICS-PG",
+    "total_count": 262,
+    "with_experience": 120,
+    "without_experience": 142
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "MUSIC-PG",
+    "total_count": 37,
+    "with_experience": 8,
+    "without_experience": 29
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "MUSIC-PG",
+    "total_count": 12,
+    "with_experience": 5,
+    "without_experience": 7
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "MUSIC-PG",
+    "total_count": 1,
+    "with_experience": 1,
+    "without_experience": 0
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "MUSIC-PG",
+    "total_count": 4,
+    "with_experience": 1,
+    "without_experience": 3
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "NUTRITION-PG",
+    "total_count": 121,
+    "with_experience": 81,
+    "without_experience": 40
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "NUTRITION-PG",
+    "total_count": 10,
+    "with_experience": 9,
+    "without_experience": 1
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "NUTRITION-PG",
+    "total_count": 233,
+    "with_experience": 58,
+    "without_experience": 175
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "NUTRITION-PG",
+    "total_count": 49,
+    "with_experience": 17,
+    "without_experience": 32
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "PHILOSOPHY-PG",
+    "total_count": 785,
+    "with_experience": 250,
+    "without_experience": 535
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "PHILOSOPHY-PG",
+    "total_count": 106,
+    "with_experience": 50,
+    "without_experience": 56
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "PHILOSOPHY-PG",
+    "total_count": 195,
+    "with_experience": 101,
+    "without_experience": 94
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "PHILOSOPHY-PG",
+    "total_count": 658,
+    "with_experience": 153,
+    "without_experience": 505
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "PHYSICAL-EDUCATION-PG",
+    "total_count": 8,
+    "with_experience": 5,
+    "without_experience": 3
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "PHYSICAL-EDUCATION-PG",
+    "total_count": 4,
+    "with_experience": 4,
+    "without_experience": 0
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "PHYSICAL-EDUCATION-PG",
+    "total_count": 19,
+    "with_experience": 12,
+    "without_experience": 7
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "PHYSICAL-EDUCATION-PG",
+    "total_count": 1,
+    "with_experience": 1,
+    "without_experience": 0
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "PHYSICS-PG",
+    "total_count": 286,
+    "with_experience": 191,
+    "without_experience": 95
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "PHYSICS-PG",
+    "total_count": 591,
+    "with_experience": 326,
+    "without_experience": 265
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "PHYSICS-PG",
+    "total_count": 111,
+    "with_experience": 85,
+    "without_experience": 26
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "PHYSICS-PG",
+    "total_count": 237,
+    "with_experience": 103,
+    "without_experience": 134
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "POLITICAL-SCIENCE-PG",
+    "total_count": 1112,
+    "with_experience": 296,
+    "without_experience": 816
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "POLITICAL-SCIENCE-PG",
+    "total_count": 112,
+    "with_experience": 59,
+    "without_experience": 53
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "POLITICAL-SCIENCE-PG",
+    "total_count": 183,
+    "with_experience": 68,
+    "without_experience": 115
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "POLITICAL-SCIENCE-PG",
+    "total_count": 642,
+    "with_experience": 113,
+    "without_experience": 529
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "PSYCHOLOGY-PG",
+    "total_count": 9,
+    "with_experience": 1,
+    "without_experience": 8
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "PSYCHOLOGY-PG",
+    "total_count": 16,
+    "with_experience": 3,
+    "without_experience": 13
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "PSYCHOLOGY-PG",
+    "total_count": 1,
+    "with_experience": 0,
+    "without_experience": 1
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "SANSKRIT-PG",
+    "total_count": 414,
+    "with_experience": 142,
+    "without_experience": 272
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "SANSKRIT-PG",
+    "total_count": 265,
+    "with_experience": 123,
+    "without_experience": 142
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "SANSKRIT-PG",
+    "total_count": 84,
+    "with_experience": 48,
+    "without_experience": 36
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "SANSKRIT-PG",
+    "total_count": 64,
+    "with_experience": 57,
+    "without_experience": 7
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "SANTHALI-PG",
+    "total_count": 13,
+    "with_experience": 2,
+    "without_experience": 11
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "SANTHALI-PG",
+    "total_count": 19,
+    "with_experience": 2,
+    "without_experience": 17
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "SANTHALI-PG",
+    "total_count": 28,
+    "with_experience": 3,
+    "without_experience": 25
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "SANTHALI-PG",
+    "total_count": 2,
+    "with_experience": 0,
+    "without_experience": 2
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "SOCIOLOGY-PG",
+    "total_count": 41,
+    "with_experience": 16,
+    "without_experience": 25
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "SOCIOLOGY-PG",
+    "total_count": 17,
+    "with_experience": 6,
+    "without_experience": 11
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "SOCIOLOGY-PG",
+    "total_count": 58,
+    "with_experience": 15,
+    "without_experience": 43
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "SOCIOLOGY-PG",
+    "total_count": 10,
+    "with_experience": 6,
+    "without_experience": 4
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "STATISTICS-PG",
+    "total_count": 7,
+    "with_experience": 2,
+    "without_experience": 5
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "STATISTICS-PG",
+    "total_count": 13,
+    "with_experience": 1,
+    "without_experience": 12
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "STATISTICS-PG",
+    "total_count": 1,
+    "with_experience": 0,
+    "without_experience": 1
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "STATISTICS-PG",
+    "total_count": 3,
+    "with_experience": 0,
+    "without_experience": 3
+  },
+  {
+    "gender": "MALE",
+    "category": "GENERAL",
+    "quota_subject": "URDU-PG",
+    "total_count": 3,
+    "with_experience": 3,
+    "without_experience": 0
+  },
+  {
+    "gender": "MALE",
+    "category": "OTHERS",
+    "quota_subject": "URDU-PG",
+    "total_count": 10,
+    "with_experience": 9,
+    "without_experience": 1
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "URDU-PG",
+    "total_count": 8,
+    "with_experience": 8,
+    "without_experience": 0
+  },
+  {
+    "gender": "FEMALE",
+    "category": "GENERAL",
+    "quota_subject": "URDU-PG",
+    "total_count": 1,
+    "with_experience": 1,
+    "without_experience": 0
+  },
+  {
+    "gender": "FEMALE",
+    "category": "OTHERS",
+    "quota_subject": "VISUAL-ARTS-PG",
+    "total_count": 2,
+    "with_experience": 0,
+    "without_experience": 2
+  }
+]
